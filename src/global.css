@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    min-height: 100vh;
+    background-color: #000;
+}
+
+main .header-calculator {
+    background-color: blue;
+    height: 8rem;
+    color: #FFF;
+}
+
+main .container-buttons {
+    padding: 3rem 1.3rem;
+}
+
+main .container-buttons .group-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main .container-buttons .group-buttons {
+    margin-bottom: 0.6rem;
+}
+
+main .container-buttons .group-buttons .button {
+    font: 400 1.8rem Roboto;
+    cursor: pointer;
+    color: #FFF;
+    height: 6rem;
+    width: 4.8rem;
+    border: 0;
+    border-radius: 8rem;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+main .container-buttons .group-buttons .number-btn-0 {
+    font: 400 1.8rem Roboto;
+    cursor: pointer;
+    color: #FFF;
+    height: 6rem;
+    width: 9.6rem;
+    border: 0;
+    border-radius: 3rem;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    background-color: #333333;
+}
+
+main .container-buttons .group-buttons .number-btn-0:hover {
+    background-color: #181818;
+}
+
+main .container-buttons .group-buttons .header-btn {
+    background-color: #a6a6a6;
+}
+
+main .container-buttons .group-buttons .header-btn:hover {
+    background-color: #5a5a5a;
+}
+
+main .container-buttons .group-buttons .operator-btn {
+    background-color: #ff9501;
+}
+
+main .container-buttons .group-buttons .operator-btn:hover {
+    background-color: #995b04;
+}
+
+main .container-buttons .group-buttons .number-btn {
+    background-color: #333333;
+}
+
+main .container-buttons .group-buttons .number-btn:hover {
+    background-color: #181818;
+}
